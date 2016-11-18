@@ -1,0 +1,31 @@
+{
+  "name": "quickdevstart",
+  "version": "0.0.1",
+  "description": "Quick css&html startkit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "makedirs": "mkdir pages, css, fonts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rost-didyk/quickdevstart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rost-didyk/quickdevstart/issues"
+  },
+  "homepage": "https://github.com/rost-didyk/quickdevstart#readme",
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-latest": "^6.16.0",
+    "css-loader": "^0.26.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.3"
+  }
+}
