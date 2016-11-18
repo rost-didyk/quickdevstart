@@ -1,2 +1,2 @@
 var css = require('../less/main.less');
-console.log('test');
+console.log('test, test');
