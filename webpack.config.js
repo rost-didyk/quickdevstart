@@ -9,7 +9,7 @@ module.exports = {
     entry: "./js/main.js",
 
     output: {
-        path: "./js-compiled",
+        path: "./dist",
         filename: "app.js"
     },
 
@@ -31,6 +31,13 @@ module.exports = {
     },
 
     plugins: [
-        new ExtractTextPlugin("style.css")
+        new ExtractTextPlugin("style.css"),
+        new webpack.optimize.OccurenceOrderPlugin(),
+        new webpack.optimize.UglifyJsPlugin({
+            compress: {
+                warnings: false
+            }
+        }),
+        new webpack.optimize.DedupePlugin()
     ]
 };

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "makedirs": "mkdir pages, css, fonts"
+    "create-new-folders": "mkdir pages, css, fonts, dist"
   },
   "repository": {
     "type": "git",
